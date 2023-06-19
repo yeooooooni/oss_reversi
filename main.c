@@ -13,7 +13,7 @@ void showPossiblePositions(int possiblePosition[8][8], stone currentStoneColor, 
 void showOthelloBoard(int othelloBoard[8][8], WINDOW* gridbox[8][8]);//reloads, shows only b and w stones
 void receiveUserInput(WINDOW* inputWin, int possiblePosition[8][8], stone currentStoneColor, int* userCoordRow, int* userCoordCol);
 
-int main(int argc, char* argv[]){
+int main(int argc, char* argv[]){   
 
     //add game start screen with ascii art  
     //input name do it in console and then start
