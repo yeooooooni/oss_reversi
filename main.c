@@ -25,7 +25,7 @@ int main(int argc, char* argv[]){
 
 
     //declare and initialize matrix for othelloboard
-    int othelloBoard[8][8];
+    int othelloBoard[8][8]; // = {0}
     initializeArraytoAllZeros(othelloBoard);
 
 
