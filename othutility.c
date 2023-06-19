@@ -19,7 +19,7 @@ void initializeArraytoAllZeros(int array[8][8]){
 //return number of found possible position -> if 0 -> then return 0. 
 int findPossible(stone currentStoneColor, int othelloBoard[8][8], int possiblePositionBoard[8][8]){
     int foundX;
-    int foundY;
+    int foundY;       
     int curX;
     int curY;
     int curVal;
